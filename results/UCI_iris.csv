@@ -1,0 +1,10 @@
+,Class: Iris-setosa,Class: Iris-versicolor,Class: Iris-virginica,Coverage (in %),Precision (in %),Rule Description
+0,42,0,0,100,100,petal-width <= 0.80 THEN Predict class: Iris-setosa
+1,0,24,0,62,100,2.60 < petal-length <= 4.45 THEN Predict class: Iris-versicolor
+2,0,0,24,62,100,petal-width > 1.85 THEN Predict class: Iris-virginica
+3,0,0,24,62,100,petal-length > 5.15 THEN Predict class: Iris-virginica
+4,0,22,0,56,100,0.80 < petal-width <= 1.35 THEN Predict class: Iris-versicolor
+5,0,16,4,41,80,1.35 < petal-width <= 1.75 THEN Predict class: Iris-versicolor
+6,0,1,11,28,92,1.75 < petal-width <= 1.85 THEN Predict class: Iris-virginica
+7,0,4,14,36,78,4.75 < petal-length <= 5.15 THEN Predict class: Iris-virginica
+8,0,21,26,67,55,5.85 < sepal-length <= 7.05 THEN Predict class: Iris-virginica

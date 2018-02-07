@@ -1,0 +1,11 @@
+,Class: acc,Class: good,Class: unacc,Class: vgood,Coverage (in %),Precision (in %),Rule Description
+0,323,60,199,44,100,52,"persons = more,4 AND safety = med,high THEN Predict class: acc"
+1,0,0,464,0,49,100,safety = low THEN Predict class: unacc
+2,0,0,441,0,46,100,persons = 2 THEN Predict class: unacc
+3,65,60,5,35,100,36,"safety = high,med AND persons = more,4 AND buying = med,low AND maint = low,med THEN Predict class: good"
+4,0,0,181,0,19,100,"buying = vhigh,high AND maint = vhigh THEN Predict class: unacc"
+5,0,0,175,0,18,100,"maint = vhigh,high AND buying = vhigh THEN Predict class: unacc"
+6,25,17,39,32,73,28,safety = high AND buying = low THEN Predict class: vgood
+7,56,10,2,12,17,70,"persons = more,4 AND safety = high AND buying = med THEN Predict class: acc"
+8,4,12,0,0,20,75,"safety = high AND lug_boot = small AND persons = 4 AND buying = med,low AND maint = low,med THEN Predict class: good"
+9,6,13,2,0,22,62,"maint = low AND persons = more AND buying = med,low AND safety = med THEN Predict class: good"
